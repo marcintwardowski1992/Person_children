@@ -10,7 +10,7 @@ public class PersonServiceImpl implements PersonService {
 
     private PersonDao personDao;
 
-    private PersonServiceImpl (PersonDao personDao){
+    public PersonServiceImpl(PersonDao personDao){
         this.personDao = personDao;
     }
 
@@ -45,7 +45,7 @@ public class PersonServiceImpl implements PersonService {
     public List<Person> getPersonsWithoutChildren() {
         System.out.println("Getting all person without children from dao");
 
-        personDao.getAllPersons().stream()
+        return personDao.getAllPersons().stream()
                 .filter(person -> person.getChildren().isEmpty())
                 .collect(Collectors.toList());
     }

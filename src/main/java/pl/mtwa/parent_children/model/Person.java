@@ -11,7 +11,7 @@ public class Person {
     private int age;
     private AdultOrChildren adultOrChildren;
     private Sex sex;
-    private Set<Person> children = Collections.emptySet();
+    private Set<Person> children = new HashSet<>();
 
 
     public Person(String name, String surname, int age, AdultOrChildren adultOrChildren, Sex sex, Set<Person> children) {
@@ -21,6 +21,13 @@ public class Person {
         this.adultOrChildren = adultOrChildren;
         this.sex = sex;
         this.children = children;
+    }
+
+    public Person(String name, String surname, int age, AdultOrChildren adultOrChildren) {
+        this.name = name;
+        this.surname = surname;
+        this.age = age;
+        this.adultOrChildren = adultOrChildren;
     }
 
     public Sex getSex() {
@@ -73,5 +80,17 @@ public class Person {
 
     public void addChild(Person child){
         children.add(child);
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", age=" + age +
+                ", adultOrChildren=" + adultOrChildren +
+                ", sex=" + sex +
+                ", children=" + children +
+                '}';
     }
 }

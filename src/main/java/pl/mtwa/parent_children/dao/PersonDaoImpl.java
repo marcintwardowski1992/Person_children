@@ -2,12 +2,14 @@ package pl.mtwa.parent_children.dao;
 
 import pl.mtwa.parent_children.model.Person;
 
+import java.sql.Connection;
 import java.util.List;
 
 public class PersonDaoImpl implements PersonDao {
+    private Connection dbConnetion;
 
-    public PersonDaoImpl() {
-        super();
+    public PersonDaoImpl (Connection dbConnetion){
+        this.dbConnetion = dbConnetion;
     }
 
     @Override

@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cab69f1f-1f4f-48e9-8c31-b618df3839a6" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/../dbperson-child/out/" />
-    <ignored path="$PROJECT_DIR$/../dbperson-child/.gradle/" />
-    <ignored path="$PROJECT_DIR$/../dbperson-child/build/" />
+    <list default="true" id="cab69f1f-1f4f-48e9-8c31-b618df3839a6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../dbperson-child/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/config/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dbperson-child/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dbperson-child/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/dao/PersonDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/dao/PersonDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/service/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/service/PersonServiceImpl.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,8 +20,52 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:h2:mem:jdbc:h2:mem:parents-and-children" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:h2:mem:jdbc:h2:mem:parents-and-children" type="feb32156:DbDataSourceImpl" />
+        <item name="PARENTS-AND-CHILDREN: database" type="c8e2528e:H2ImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:h2:mem:jdbc:h2:mem:parents-and-children" type="feb32156:DbDataSourceImpl" />
+        <item name="PARENTS-AND-CHILDREN: database" type="c8e2528e:H2ImplModel$Database" />
+        <item name="PUBLIC: schema" type="4f7ca4f5:H2ImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:h2:mem:jdbc:h2:mem:parents-and-children" type="feb32156:DbDataSourceImpl" />
+        <item name="PARENTS-AND-CHILDREN: database" type="c8e2528e:H2ImplModel$Database" />
+        <item name="PUBLIC: schema" type="4f7ca4f5:H2ImplModel$Schema" />
+        <item name="Parent-Child: table" type="e4ce7bd9:H2ImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:h2:mem:jdbc:h2:mem:parents-and-children" type="feb32156:DbDataSourceImpl" />
+        <item name="PARENTS-AND-CHILDREN: database" type="c8e2528e:H2ImplModel$Database" />
+        <item name="PUBLIC: schema" type="4f7ca4f5:H2ImplModel$Schema" />
+        <item name="PERSON: table" type="e4ce7bd9:H2ImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$/../dbperson-child">
+    <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
@@ -35,80 +87,18 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="db.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/resources/sql/db.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dbperson-child/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="1071">
+              <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
                 <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#982#983#0" expanded="true" />
-                <element signature="e#1033#1034#0" expanded="true" />
-                <element signature="e#1071#1072#0" expanded="true" />
-                <element signature="e#1142#1143#0" expanded="true" />
-                <element signature="e#1196#1197#0" expanded="true" />
-                <element signature="e#1236#1237#0" expanded="true" />
-                <element signature="e#1267#1268#0" expanded="true" />
-                <element signature="e#1320#1321#0" expanded="true" />
-                <element signature="e#1360#1361#0" expanded="true" />
-                <element signature="e#1405#1406#0" expanded="true" />
-                <element signature="e#1428#1429#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sex.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/Sex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding>
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#116#117#0" expanded="true" />
-                <element signature="e#145#146#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/dao/PersonDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#1590#1591#0" expanded="true" />
+                <element signature="e#1625#1626#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,40 +116,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PersonServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/service/PersonServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="51">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WelcomeService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/service/WelcomeService.java">
+      <file leaf-file-name="PersonDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/dao/PersonDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="170">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding>
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,22 +155,50 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/application/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="306">
+              <caret line="18" column="80" lean-forward="true" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdultOrChildren.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/AdultOrChildren.java">
+      <file leaf-file-name="Configuration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/config/Configuration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="663">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1047#1048#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d181e6f8-caa2-418c-9252-d7cc1d435e2e/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.197/23b998de929dba8b42a815057517f997d8b148e9/h2-1.4.197-sources.jar!/org/h2/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1768">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractCollection.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_144/src.zip!/java/util/AbstractCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="261" selection-start-line="261" selection-end-line="261" />
+              <folding>
+                <element signature="e#8824#8825#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -200,18 +215,23 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>java</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../dbperson-child" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$/../dbperson-child" value="C:\Gradle\gradle-4.7" />
+        <entry key="$PROJECT_DIR$" value="C:\Gradle\gradle-4.7" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$/../dbperson-child" value="4.7" />
+        <entry key="$PROJECT_DIR$" value="4.7" />
       </map>
     </option>
     <option name="availableProjects">
@@ -220,14 +240,14 @@
           <key>
             <ExternalProjectPojo>
               <option name="name" value="dbperson-child" />
-              <option name="path" value="$PROJECT_DIR$/../dbperson-child" />
+              <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
                 <option name="name" value="dbperson-child" />
-                <option name="path" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -236,142 +256,142 @@
     </option>
     <option name="availableTasks">
       <map>
-        <entry key="$PROJECT_DIR$/../dbperson-child">
+        <entry key="$PROJECT_DIR$">
           <value>
             <list>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the components produced by root project 'dbperson-child'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of root project 'dbperson-child'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the dependent components of components in root project 'dbperson-child'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all buildscript dependencies declared in root project 'dbperson-child'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates Gradle wrapper files." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="wrapper" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="testClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javadoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the configuration model of root project 'dbperson-child'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from root project 'dbperson-child'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Initializes a new Gradle build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the insight into a specific dependency in root project 'dbperson-child'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assemble" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in root project 'dbperson-child'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'dbperson-child'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../dbperson-child" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
@@ -381,7 +401,10 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/../dbperson-child" value="4591039734832" />
+        <entry key="$PROJECT_DIR$" value="4591039734832" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="959095207" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="1986029916" />
         <entry key="$PROJECT_DIR$/../dbperson-child/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/../dbperson-child/build.gradle" value="959095207" />
         <entry key="$PROJECT_DIR$/../dbperson-child/settings.gradle" value="1986029916" />
@@ -389,15 +412,15 @@
     </option>
     <option name="projectBuildClasspath">
       <map>
-        <entry key="$PROJECT_DIR$/../dbperson-child">
+        <entry key="$PROJECT_DIR$">
           <value>
             <ExternalProjectBuildClasspathPojo>
               <option name="modulesBuildClasspath">
                 <map>
-                  <entry key="$PROJECT_DIR$/../dbperson-child">
+                  <entry key="$PROJECT_DIR$">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/../dbperson-child" />
+                        <option name="path" value="$PROJECT_DIR$" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -406,153 +429,153 @@
               <option name="name" value="dbperson-child" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/announce" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/antlr" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/base-services" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/base-services-groovy" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/build-cache" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/build-cache-http" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/build-comparison" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/build-init" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/build-option" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/cli" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/code-quality" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/composite-builds" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/core" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/core-api" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/dependency-management" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/diagnostics" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/ear" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/ide" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/ide-native" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/ide-play" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/installation-beacon" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/internal-android-performance-testing" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/internal-integ-testing" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/internal-performance-testing" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/internal-testing" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/ivy" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/jacoco" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/javascript" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/jvm-services" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/language-groovy" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/language-java" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/language-jvm" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/language-native" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/language-scala" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/launcher" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/logging" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/maven" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/messaging" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/model-core" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/model-groovy" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/native" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/osgi" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/persistent-cache" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/platform-base" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/platform-jvm" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/platform-native" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/platform-play" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/plugin-development" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/plugin-use" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/plugins" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/process-services" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/publish" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/reporting" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/resources" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/resources-gcs" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/resources-http" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/resources-s3" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/resources-sftp" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/scala" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/signing" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/test-kit" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/testing-base" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/testing-junit-platform" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/testing-jvm" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/testing-native" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/tooling-api" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/tooling-api-builders" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/version-control" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/workers" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/src/wrapper" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/ant-1.9.9.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/ant-launcher-1.9.9.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-base-services-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-base-services-groovy-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-build-cache-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-build-option-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-cli-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-core-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-core-api-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-docs-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-installation-beacon-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-jvm-services-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-kotlin-dsl-0.16.3.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-kotlin-dsl-tooling-builders-0.16.3.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-kotlin-dsl-tooling-models-0.16.3.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-launcher-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-logging-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-messaging-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-model-core-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-model-groovy-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-native-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-persistent-cache-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-process-services-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-resources-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-runtime-api-info-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-tooling-api-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/gradle-wrapper-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/groovy-all-2.4.12.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-announce-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-antlr-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-build-cache-http-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-build-comparison-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-build-init-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-code-quality-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-composite-builds-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-dependency-management-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-diagnostics-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-ear-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-ide-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-ide-native-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-ide-play-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-ivy-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-jacoco-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-javascript-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-language-groovy-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-language-java-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-language-jvm-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-language-native-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-language-scala-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-maven-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-osgi-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-platform-base-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-platform-jvm-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-platform-native-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-platform-play-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-plugin-development-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-plugin-use-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-plugins-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-publish-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-reporting-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-resources-gcs-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-resources-http-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-resources-s3-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-resources-sftp-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-scala-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-signing-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-test-kit-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-testing-base-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-testing-junit-platform-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-testing-jvm-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-testing-native-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-tooling-api-builders-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-version-control-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/gradle-workers-4.7.jar" />
-                  <option value="$PROJECT_DIR$/../Gradle/gradle-4.7/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="$PROJECT_DIR$/../dbperson-child/buildSrc/src/main/java" />
-                  <option value="$PROJECT_DIR$/../dbperson-child/buildSrc/src/main/groovy" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/announce" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/antlr" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/base-services" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/base-services-groovy" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/build-cache" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/build-cache-http" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/build-comparison" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/build-init" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/build-option" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/cli" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/code-quality" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/composite-builds" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/core" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/core-api" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/dependency-management" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/diagnostics" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/ear" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/ide" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/ide-native" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/ide-play" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/installation-beacon" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/internal-android-performance-testing" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/internal-integ-testing" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/internal-performance-testing" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/internal-testing" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/ivy" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/jacoco" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/javascript" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/jvm-services" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/language-groovy" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/language-java" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/language-jvm" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/language-native" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/language-scala" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/launcher" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/logging" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/maven" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/messaging" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/model-core" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/model-groovy" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/native" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/osgi" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/persistent-cache" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/platform-base" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/platform-jvm" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/platform-native" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/platform-play" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/plugin-development" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/plugin-use" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/plugins" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/process-services" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/publish" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/reporting" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/resources" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/resources-gcs" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/resources-http" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/resources-s3" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/resources-sftp" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/scala" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/signing" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/test-kit" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/testing-base" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/testing-junit-platform" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/testing-jvm" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/testing-native" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/tooling-api" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/tooling-api-builders" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/version-control" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/workers" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/src/wrapper" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/ant-1.9.9.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/ant-launcher-1.9.9.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-base-services-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-base-services-groovy-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-build-cache-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-build-option-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-cli-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-core-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-core-api-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-docs-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-installation-beacon-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-jvm-services-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-kotlin-dsl-0.16.3.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-kotlin-dsl-tooling-builders-0.16.3.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-kotlin-dsl-tooling-models-0.16.3.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-launcher-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-logging-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-messaging-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-model-core-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-model-groovy-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-native-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-persistent-cache-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-process-services-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-resources-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-runtime-api-info-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-tooling-api-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/gradle-wrapper-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/groovy-all-2.4.12.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-announce-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-antlr-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-build-cache-http-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-build-comparison-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-build-init-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-code-quality-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-composite-builds-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-dependency-management-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-diagnostics-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-ear-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-ide-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-ide-native-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-ide-play-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-ivy-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-jacoco-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-javascript-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-language-groovy-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-language-java-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-language-jvm-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-language-native-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-language-scala-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-maven-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-osgi-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-platform-base-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-platform-jvm-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-platform-native-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-platform-play-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-plugin-development-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-plugin-use-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-plugins-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-publish-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-reporting-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-resources-gcs-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-resources-http-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-resources-s3-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-resources-sftp-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-scala-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-signing-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-test-kit-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-testing-base-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-testing-junit-platform-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-testing-jvm-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-testing-native-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-tooling-api-builders-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-version-control-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/gradle-workers-4.7.jar" />
+                  <option value="$PROJECT_DIR$/..///Gradle/gradle-4.7/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
               </option>
             </ExternalProjectBuildClasspathPojo>
@@ -562,22 +585,34 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../dbperson-child" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../dbperson-child/build.gradle" />
-        <option value="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/AdultOrChildren.java" />
-        <option value="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/Sex.java" />
-        <option value="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/Person.java" />
-        <option value="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/dao/PersonDao.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/mtwa/parent_children/model/AdultOrChildren.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/mtwa/parent_children/model/Sex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/mtwa/parent_children/model/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/mtwa/parent_children/dao/PersonDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/mtwa/parent_children/service/PersonService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/mtwa/parent_children/service/WelcomeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/mtwa/parent_children/application/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/mtwa/parent_children/service/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/mtwa/parent_children/dao/PersonDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/mtwa/parent_children/service/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/../dbperson-child/.gitignore" />
         <option value="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/service/PersonService.java" />
+        <option value="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/dao/PersonDaoImpl.java" />
         <option value="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/service/WelcomeService.java" />
-        <option value="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/application/Application.java" />
         <option value="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/service/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/Person.java" />
+        <option value="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/application/Application.java" />
+        <option value="$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/config/Configuration.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d181e6f8-caa2-418c-9252-d7cc1d435e2e/console_1.sql" />
       </list>
     </option>
   </component>
@@ -596,7 +631,9 @@
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
@@ -604,7 +641,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -677,6 +713,17 @@
               <item name="pl" type="462c0819:PsiDirectoryNode" />
               <item name="mtwa" type="462c0819:PsiDirectoryNode" />
               <item name="parent_children" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dbperson-child" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dbperson-child" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="mtwa" type="462c0819:PsiDirectoryNode" />
+              <item name="parent_children" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -718,12 +765,6 @@
             </path>
             <path>
               <item name="dbperson-child" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dbperson-child" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="dbperson-child" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -732,17 +773,20 @@
       </pane>
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2&#10;DDL Data Source" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -756,7 +800,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.mtwa.parent_children.application.Application" />
+      <module name="dbperson-child_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.mtwa.parent_children.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Configuration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.mtwa.parent_children.config.Configuration" />
+      <module name="dbperson-child_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.mtwa.parent_children.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -798,6 +863,16 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Application.Configuration" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Configuration" />
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -809,54 +884,247 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530346210886</updated>
-      <workItem from="1530346213489" duration="4039000" />
+      <workItem from="1530346213489" duration="4249000" />
+      <workItem from="1530350529298" duration="1496000" />
+      <workItem from="1530352067821" duration="5297000" />
     </task>
+    <task id="LOCAL-00001" summary="abc">
+      <created>1530350294409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530350294409</updated>
+    </task>
+    <task id="LOCAL-00002" summary="abc1">
+      <created>1530352286293</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530352286293</updated>
+    </task>
+    <task id="LOCAL-00003" summary="abc1">
+      <created>1530352322424</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530352322424</updated>
+    </task>
+    <task id="LOCAL-00004" summary="abc1">
+      <created>1530352387763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1530352387763</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4039000" />
+    <option name="totallyTimeSpent" value="11042000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
-      <window_info anchor="bottom" id="Build" weight="0.35313532" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Gradle" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
+      <window_info anchor="bottom" id="Messages" weight="0.32838285" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.22607261" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32838285" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.24205749" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.07261725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.35313532" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="abc" />
+    <MESSAGE value="abc1" />
+    <option name="LAST_COMMIT_MESSAGE" value="abc1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/Sex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/dao/PersonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/service/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/service/PersonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/dao/PersonDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/service/WelcomeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/AdultOrChildren.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/resources/sql/db.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -867,64 +1135,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/AdultOrChildren.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="391">
           <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
             <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1033#1034#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1196#1197#0" expanded="true" />
-            <element signature="e#1236#1237#0" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1320#1321#0" expanded="true" />
-            <element signature="e#1360#1361#0" expanded="true" />
-            <element signature="e#1405#1406#0" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/Sex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="119">
           <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
             <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/dao/PersonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/service/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/service/WelcomeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/AdultOrChildren.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/service/PersonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/resources/sql/db.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/AdultOrChildren.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/Sex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -934,6 +1254,72 @@
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/service/WelcomeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_144/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="261" selection-start-line="261" selection-end-line="261" />
+          <folding>
+            <element signature="e#8824#8825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/dao/PersonDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="80" lean-forward="true" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2e7f25e-94d0-4a86-a41b-1e0ef3ae4c23/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/service/PersonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -948,44 +1334,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/service/WelcomeService.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.197/23b998de929dba8b42a815057517f997d8b148e9/h2-1.4.197-sources.jar!/org/h2/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        <state relative-caret-position="-1768">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d181e6f8-caa2-418c-9252-d7cc1d435e2e/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/config/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+    <entry file="uml://DATABASE/d181e6f8-caa2-418c-9252-d7cc1d435e2e.SCHEMA:PARENTS-AND-CHILDREN.PUBLIC">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>d181e6f8-caa2-418c-9252-d7cc1d435e2e.SCHEMA:PARENTS-AND-CHILDREN.PUBLIC</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="330.5" y="177.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/service/PersonServiceImpl.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d181e6f8-caa2-418c-9252-d7cc1d435e2e/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="119">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dbperson-child/src/main/java/pl/mtwa/parent_children/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
           </folding>
         </state>
       </provider>
